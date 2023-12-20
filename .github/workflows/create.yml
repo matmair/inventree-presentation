@@ -1,0 +1,30 @@
+# Github action to build slides as pdf and push to gh-pages branch
+name: Create and push to gh-pages branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install dependencies
+      run: yarn install
+    - name: Build pdf
+      run: yarn pdf
+    - name: Push arctifact of pdf
+      uses: actions/upload-artifact@v1
+      with:
+        name: slides
+        path: slides.pdf
+    - name: Build html
+      run: yarn html
+    - name: Deploy to gh-pages
+      uses: actions/upload-pages-artifact@v1
+      with:
+        artifact-name: slides
+        path: dist
