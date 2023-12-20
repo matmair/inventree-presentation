@@ -14,15 +14,15 @@ jobs:
     - uses: actions/checkout@v1
     - name: Install dependencies
       run: yarn install
-    - name: Build pdf
-      run: yarn pdf
-    - name: Push arctifact of pdf
-      uses: actions/upload-artifact@v1
-      with:
-        name: slides
-        path: slides.pdf
-    - name: Build html
-      run: yarn html
+    #- name: Build pdf
+    #  run: yarn pdf
+    #- name: Push arctifact of pdf
+    #  uses: actions/upload-artifact@v1
+    #  with:
+    #    name: slides
+    #    path: slides.pdf
+    #- name: Build html
+    #  run: yarn html
     - name: Deploy to gh-pages
       uses: actions/upload-pages-artifact@v1
       with:
