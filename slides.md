@@ -28,13 +28,15 @@ Matthias Mair @matmair
 MIT licensed, Python/Django based, since 2017
 
 Developed by a stable core team of volunteers (3-5)
+
 75+ contributors, 3k+ stars
+
 50+ translators for 30+ languages (8 are +75%)
 
 # Architecture
 
 Server-Client architecture
-- Central API service (Django)
+- Central API service - REST + OpenAPI spec (Django)
 - Web frontend (HTML + vanilla JS / React)
 - Android / iOS app (Flutter)
 - Python API client
@@ -44,7 +46,9 @@ Server-Client architecture
 # Business Logic
 
 Core models: Part, Stock, Order (sales purchase), Build
+
 Models can be extended with strongly typed parameters (SI) or JSON OOB
+
 Support for deep plugin integration (custom UI, API, models, ...)
 
 ---
@@ -52,8 +56,11 @@ Support for deep plugin integration (custom UI, API, models, ...)
 # Enterprise ready
 
 Security: SSO, LDAP, MFA, RBAC, 12 factor app, ...
+
 Deployment: Debian / Ubuntu, Docker, DigitalOcean, ...
+
 Best Practices: OpenSSF passing, ±90% coverage, CI/CD, SAST, enforced code style, ...
+
 
 ---
 
@@ -70,9 +77,13 @@ Best Practices: OpenSSF passing, ±90% coverage, CI/CD, SAST, enforced code styl
 # We need you! inventree.org
 
 Bug reporters / testing development versions
+
 Translators and proofreaders
+
 Documentation writers
+
 Developers (Python, JS/TS, Flutter, ...)
+
 Feature Funding / long term sponsors
 
 ---
