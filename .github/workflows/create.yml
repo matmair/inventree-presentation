@@ -13,7 +13,7 @@ jobs:
     - name: Install dependencies
       run: yarn install
     - name: Build html
-      run: yarn html
+      run: yarn build
     - name: Build pdf
       run: yarn pdf-html
     - name: Push arctifact of pdf
