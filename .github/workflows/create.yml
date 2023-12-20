@@ -4,12 +4,23 @@ name: Create and push to gh-pages branch
 on:
   push:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
     - name: Install dependencies
       run: yarn install
     - name: Build html
@@ -22,7 +33,9 @@ jobs:
         name: slides
         path: slides.pdf
     - name: Deploy to gh-pages
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v2
       with:
-        artifact-name: slides
         path: dist
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v3
