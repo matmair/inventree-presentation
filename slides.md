@@ -46,6 +46,8 @@ Developed by a stable core team of volunteers (3-5)
 
 50+ translators for 30+ languages (8 are +75%)
 
+---
+
 # Architecture
 
 Server-Client architecture
