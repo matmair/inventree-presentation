@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "reveal-md slides.md --static dist --static-dir assets --theme night",
+    "build": "reveal-md slides.md --static dist --static-dir assets",
     "pdf": "reveal-md slides.md --print slides.pdf --print-size 1024x768"
   },
   "dependencies": {

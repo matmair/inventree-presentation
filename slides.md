@@ -1,6 +1,19 @@
+---
+title: InvenTree 37c3 Lightning Talk
+# theme: night
+revealOptions:
+  transition: 'fade'
+---
+
+# InvenTree - 37c3 Lightning Talk
+
+---
+
 # The Problem
 
 CC by SA Image of boxes
+
+Created for 37c3 lightning talks
 
 ---
 
