@@ -44,7 +44,7 @@ mjmair.com
 MIT licensed, Python/Django based, since 2017
 
 Developed by a stable core team of volunteers (3-5)  
-75+ contributors, 3k+ stars  
+75+ contributors, 3k+ stars on GitHub  
 50+ translators for 30+ languages (8 are +75%)
 
 inventree.org
@@ -68,9 +68,11 @@ Core business objects:
 - Order (sales, purchase, return)
 - Build
 
-Models can be extended with strongly typed parameters (SI) or loosly typed JSON blobs
+Models can be extended:
+- strongly typed (incl. SI conversion support) *parameters*
+- loosly typed JSON *metadata*
 
-Plugins for custom functions (custom UI, API, models, ...)
+Plugins for: custom UI, API, models, ...
 
 ---
 
@@ -97,7 +99,7 @@ Best Practices: OpenSSF badge: passing, ±90% coverage, CI/CD, SAST, enforced co
 
 # We need you! invenTree.org/
 
-We are always lookgin for people:
+We are always looking for people:
 - reporting bugs / testing development versions
 - translating and proofreading
 - writing documentation
