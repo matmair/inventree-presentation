@@ -3,23 +3,24 @@ title: InvenTree 37c3 Lightning Talk
 # theme: night
 revealOptions:
   transition: 'fade'
+  center: false
 ---
 
 # InvenTree - 37c3 Lightning Talk
 
 ---
 
-# The Problem
+# Problem: Chaos
 
-CC by SA Image of boxes
+TODO: CC by SA Image of boxes
 
 Created for 37c3 lightning talks
 
 ---
 
-# The logical solution: Inventory Management
+# Solution: Inventory Management
 
-Inventory management software
+InvenTree Inventory management software
 - Part mamagment
 - Parameters (resistance, voltage, package, ...)
 - Stock tracking
@@ -27,24 +28,26 @@ and more
 
 ---
 
-# Who am I? mjmair.com
+# Who am I?
 
 Matthias Mair @matmair
-- I work in civil engineering + something with IT
-- Proud Austrian (no kangaroos)
+- I work in civil engineering / IT
+- Austrian (no kangaroos)
 - Involved with InvenTree since 2021 (±2k commits)
+
+mjmair.com
 
 ---
 
-# InvenTree Project  inventree.org
+# InvenTree Project
 
 MIT licensed, Python/Django based, since 2017
 
-Developed by a stable core team of volunteers (3-5)
-
-75+ contributors, 3k+ stars
-
+Developed by a stable core team of volunteers (3-5)  
+75+ contributors, 3k+ stars  
 50+ translators for 30+ languages (8 are +75%)
+
+inventree.org
 
 ---
 
@@ -60,11 +63,14 @@ Server-Client architecture
 
 # Business Logic
 
-Core models: Part, Stock, Order (sales purchase), Build
+Core business objects:
+- Part, Stock
+- Order (sales, purchase, return)
+- Build
 
-Models can be extended with strongly typed parameters (SI) or JSON OOB
+Models can be extended with strongly typed parameters (SI) or loosly typed JSON blobs
 
-Support for deep plugin integration (custom UI, API, models, ...)
+Plugins for custom functions (custom UI, API, models, ...)
 
 ---
 
@@ -74,7 +80,7 @@ Security: SSO, LDAP, MFA, RBAC, 12 factor app, ...
 
 Deployment: Debian / Ubuntu, Docker, DigitalOcean, ...
 
-Best Practices: OpenSSF passing, ±90% coverage, CI/CD, SAST, enforced code style, ...
+Best Practices: OpenSSF badge: passing, ±90% coverage, CI/CD, SAST, enforced code style, ...
 
 
 ---
@@ -89,17 +95,17 @@ Best Practices: OpenSSF passing, ±90% coverage, CI/CD, SAST, enforced code styl
 
 ---
 
-# We need you! inventree.org
+# We need you! invenTree.org/
 
-Bug reporters / testing development versions
+We are always lookgin for people:
+- reporting bugs / testing development versions
+- translating and proofreading
+- writing documentation
+- developing (Python, JS/TS, Flutter, ...)
+- funding features / sponsoring long term
+- communicating about the project, answersing quetions, ...
 
-Translators and proofreaders
-
-Documentation writers
-
-Developers (Python, JS/TS, Flutter, ...)
-
-Feature Funding / long term sponsors
+You do not need to be a "developer" to contribute! visit inventree.org/contribute
 
 ---
 
