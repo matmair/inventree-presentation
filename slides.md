@@ -97,7 +97,7 @@ Best Practices: OpenSSF badge: passing, ±90% coverage, CI/CD, SAST, enforced co
 
 ---
 
-# We need you! invenTree.org/
+# We need you! invenTree.org
 
 We are always looking for people:
 - reporting bugs / testing development versions
@@ -108,6 +108,16 @@ We are always looking for people:
 - communicating about the project, answersing quetions, ...
 
 You do not need to be a "developer" to contribute! visit inventree.org/contribute
+
+---
+
+# Contact
+
+Projekt: inventree.org
+
+Me: mjmair.com / @matmair on GitHub
+
+Slides and more: 37c3.mjmair.com
 
 ---
 
