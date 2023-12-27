@@ -12,11 +12,7 @@ revealOptions:
 
 # Problem: Loose Box Chaos
 
-![Loose Box Chaos](assets/loose-box-chaos.jpg)
-
-
-Photo by <a href="https://unsplash.com/de/@purzlbaum">Claudio Schwarz</a> on <a href="https://unsplash.com/de/fotos/braune-kartons-auf-schwarzer-plastikkiste-q8kR_ie6WnI">Unsplash</a>
-  
+Boxes with electronic components everywhere: Do I already have this PIC / resistor / LED?
 
 ---
 
