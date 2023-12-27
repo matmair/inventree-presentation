@@ -10,17 +10,18 @@ revealOptions:
 
 ---
 
-# Problem: Chaos
+# Problem: Loose Box Chaos
 
-TODO: CC by SA Image of boxes
+![Loose Box Chaos](assets/loose-box-chaos.jpg)
 
-Created for 37c3 lightning talks
+Foto von <a href="https://unsplash.com/de/@purzlbaum?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Claudio Schwarz</a> auf <a href="https://unsplash.com/de/fotos/braune-kartons-auf-schwarzer-plastikkiste-q8kR_ie6WnI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 
 ---
 
 # Solution: Inventory Management
 
-InvenTree Inventory management software
+**InvenTree**: Inventory management software
 - Part mamagment
 - Parameters (resistance, voltage, package, ...)
 - Stock tracking
@@ -30,24 +31,24 @@ and more
 
 # Who am I?
 
-Matthias Mair @matmair
+Matthias Mair / @matmair
 - I work in civil engineering / IT
 - Austrian (no kangaroos)
 - Involved with InvenTree since 2021 (±2k commits)
 
-mjmair.com
+[mjmair.com](https://mjmair.com)
 
 ---
 
 # InvenTree Project
 
-MIT licensed, Python/Django based, since 2017
+MIT licensed, Python/Django based, started 2017
 
-Developed by a stable core team of volunteers (3-5)  
+Developed by a core team of volunteers (3-5)  
 75+ contributors, 3k+ stars on GitHub  
-50+ translators for 30+ languages (8 are +75%)
+50+ translators for 30+ languages (8 are +75% proofred)
 
-inventree.org
+[inventree.org](https://inventree.org)
 
 ---
 
@@ -64,15 +65,16 @@ Server-Client architecture
 # Business Logic
 
 Core business objects:
-- Part, Stock
+- Part, Stocklocation, Stock (1:n:n)
 - Order (sales, purchase, return)
 - Build
 
 Models can be extended:
-- strongly typed (incl. SI conversion support) *parameters*
+- strongly typed *parameters*  
+  SI conversion support
 - loosly typed JSON *metadata*
 
-Plugins for: custom UI, API, models, ...
+Plugins to extend and customize
 
 ---
 
@@ -80,9 +82,11 @@ Plugins for: custom UI, API, models, ...
 
 Security: SSO, LDAP, MFA, RBAC, 12 factor app, ...
 
-Deployment: Debian / Ubuntu, Docker, DigitalOcean, ...
+Deployment: Debian / Ubuntu packages, Docker image, install script, DigitalOcean, ...
 
-Best Practices: OpenSSF badge: passing, ±90% coverage, CI/CD, SAST, enforced code style, ...
+Best Practices: OpenSSF best practices, ±90% coverage, CI/CD, SAST, enforced code style, ...
+
+Open for feedback
 
 
 ---
@@ -92,22 +96,29 @@ Best Practices: OpenSSF badge: passing, ±90% coverage, CI/CD, SAST, enforced co
 - InvenTree Plugins: Shopify, Mouser, PCBA, loan management
 - Label Printers: Brother, Zebra, CUPs
 - Notifications: Email, Slack, Apprise
-- Native KiCad database integration (nightly / 8)
+- KiCad database integration (nightly / 8)
 - CLI / import tools for various vendors
 
 ---
 
-# We need you! invenTree.org
+# We need you! InvenTree.org
 
 We are always looking for people:
 - reporting bugs / testing development versions
 - translating and proofreading
-- writing documentation
+- writing documentation / guides
 - developing (Python, JS/TS, Flutter, ...)
 - funding features / sponsoring long term
 - communicating about the project, answersing quetions, ...
 
-You do not need to be a "developer" to contribute! visit inventree.org/contribute
+You do not need to be a "developer" to contribute!  visit [inventree.org/contribute](https://inventree.org/contribute)
+
+---
+
+# Friendly projects in the space
+
+- Part-DB: [Part-DB/Part-DB-server](https://github.com/Part-DB/Part-DB-server) inventory management in PHP
+- kitspace.org: [kitspace/kitspace](https://github.com/kitspace/kitspace) OSHW project repo
 
 ---
 
