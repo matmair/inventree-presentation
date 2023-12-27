@@ -14,7 +14,8 @@ revealOptions:
 
 ![Loose Box Chaos](assets/loose-box-chaos.jpg)
 
-Foto von <a href="https://unsplash.com/de/@purzlbaum?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Claudio Schwarz</a> auf <a href="https://unsplash.com/de/fotos/braune-kartons-auf-schwarzer-plastikkiste-q8kR_ie6WnI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/de/@purzlbaum">Claudio Schwarz</a> on <a href="https://unsplash.com/de/fotos/braune-kartons-auf-schwarzer-plastikkiste-q8kR_ie6WnI>Unsplash</a>
   
 
 ---
@@ -26,6 +27,8 @@ Foto von <a href="https://unsplash.com/de/@purzlbaum?utm_content=creditCopyText&
 - Parameters (resistance, voltage, package, ...)
 - Stock tracking
 and more
+
+[inventree.org](https://inventree.org)
 
 ---
 
@@ -52,7 +55,7 @@ Developed by a core team of volunteers (3-5)
 
 ---
 
-# Architecture
+# Components
 
 Server-Client architecture
 - Central API service - REST + OpenAPI spec (Django)
@@ -117,8 +120,8 @@ You do not need to be a "developer" to contribute!  visit [inventree.org/contrib
 
 # Friendly projects in the space
 
-- Part-DB: [Part-DB/Part-DB-server](https://github.com/Part-DB/Part-DB-server) inventory management in PHP
-- kitspace.org: [kitspace/kitspace](https://github.com/kitspace/kitspace) OSHW project repo
+- Part-DB: inventory management in PHP [Part-DB/Part-DB-server](https://github.com/Part-DB/Part-DB-server)
+- kitspace.org: OSHW project repo [kitspace/kitspace](https://github.com/kitspace/kitspace)
 
 ---
 
